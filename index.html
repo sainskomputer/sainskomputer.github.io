@@ -2,12 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>sainskomputer</title>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet'/>
   </head>
   <style media="screen">
-    body {margin: 0;font-family: monospace;}
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      font-family: "Montserrat",sans-serif;
+      height: 100vh;
+      animation-duration: 20s;
+      animation-name: color-bg;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    .wrapper {width: 100%;text-align: center;}
+    .wrapper svg {width: 200px;height: 200px;}
+    @keyframes color-bg{
+      0%{fill: #6644cc;background-color: #fff;}
+      25%{fill: #fff;background-color: #6644cc;}
+      50%{fill: #6644cc;background-color: #181a1f;}
+      75%{fill: #6644cc;background-color: #181a1f;}
+      100%{fill: #6644cc;background-color: #fff;}
+    }
   </style>
   <body>
-    hello world
+    <div class="wrapper">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="600.000000pt" height="600.000000pt" viewBox="0 0 600.000000 600.000000" preserveAspectRatio="xMidYMid meet">
+      <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)" stroke="none">
+      <path d="M2794 5589 c-920 -71 -1750 -645 -2143 -1481 -368 -782 -324 -1692
+      117 -2436 594 -1001 1793 -1485 2917 -1177 1289 354 2099 1625 1874 2944 -225
+      1321 -1424 2254 -2765 2150z m436 -519 c815 -99 1490 -645 1744 -1410 74 -226
+      106 -422 106 -660 0 -325 -72 -636 -213 -920 -320 -641 -921 -1063 -1637
+      -1150 -109 -13 -351 -13 -460 0 -657 80 -1226 447 -1557 1005 -302 508 -376
+      1117 -202 1678 241 783 924 1353 1744 1456 100 12 375 13 475 1z"/>
+      <path d="M2490 3943 c-14 -3 -56 -20 -95 -37 -239 -111 -382 -373 -345 -633
+      13 -98 34 -156 86 -240 73 -117 182 -207 310 -255 57 -21 74 -22 476 -26 l417
+      -3 21 -26 c28 -36 25 -57 -11 -87 l-31 -26 -1005 0 -1005 0 7 -32 c26 -119
+      123 -351 201 -479 l36 -59 976 2 977 3 58 22 c188 72 342 248 382 438 40 188
+      -4 371 -122 515 -83 102 -159 155 -275 194 l-77 26 -401 0 -401 0 -24 25 c-32
+      32 -31 50 4 86 l29 29 1007 0 1006 0 -7 38 c-10 53 -80 255 -110 316 -14 28
+      -47 88 -72 133 l-47 83 -970 -1 c-533 -1 -981 -4 -995 -6z"/>
+      </g>
+      </svg>
+      <p>Github's / Blogs / Pages / <a href="/src/presets.psd">Resources</a></p>
+    </div>
   </body>
 </html>
